@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+class Sm
+{
+    public:
+    int data;
+    void purchase()
+    {
+        cout<<"\n purchased "<<data<<" books.";
+    }
+}cus;
+
+int main()
+{
+    Sm cus1;
+    cus.data=10;
+    cus1.data=20;
+    cus.purchase();
+    cus1.purchase();
+
+    return 0;
+}
